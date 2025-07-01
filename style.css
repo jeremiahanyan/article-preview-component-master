@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-container {
+    position: absolute;
+    top: 30vh;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 650px;
+    height: 250px;
+}
+h2.header {
+    color: hsl(217, 19%, 35%);
+}
+.content {
+    color: hsl(214, 17%, 51%);
+}
+.img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 0 0 10px;
+}
+.text-content {
+    padding: 30px;
+}
+.text-content .paragraph .content {
+    margin: 13px 0 13px 0;
+}
+.text-content 
+.writers-info 
+.writer-address  img{
+    width: 50px;
+    border-radius: 50px;
+}
+.writers-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.writer-address {
+    display: flex;
+    flex-direction: row;
+}
+.writer-address .txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+    padding: 7px;
+}
+.writer-address .txt .name {
+    font-weight: bolder;
+    color: hsl(217, 19%, 35%);
+}
+.writer-address .txt .date {
+    color: hsl(212, 23%, 69%);
+}
