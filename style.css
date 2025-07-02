@@ -22,9 +22,12 @@ body {
 }
 h2.header {
     color: hsl(217, 19%, 35%);
+    line-height: 25px;
 }
 .content {
     color: hsl(214, 17%, 51%);
+    font-weight: 500;
+    line-height: 18px;
 }
 .img img {
     width: 250px;
@@ -40,7 +43,7 @@ h2.header {
 .text-content 
 .writers-info 
 .writer-address  img{
-    width: 50px;
+    width: 45px;
     border-radius: 50px;
 }
 .writers-info {
@@ -58,7 +61,7 @@ h2.header {
     flex-direction: column;
     justify-content: space-between;
     margin-left: 15px;
-    padding: 7px;
+    padding: 5px;
 }
 .writer-address .txt .name {
     font-weight: bolder;
@@ -66,4 +69,10 @@ h2.header {
 }
 .writer-address .txt .date {
     color: hsl(212, 23%, 69%);
+}
+.share-icon {
+    padding: 5px;
+    border-radius: 50px;
+    background-color: hsl(210, 46%, 95%);
+    position: relative;
 }
